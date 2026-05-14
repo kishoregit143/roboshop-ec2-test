@@ -6,7 +6,7 @@ terraform {
     }
   }
 backend "s3" {
-    bucket = "devopslabs-remote-state"
+    bucket = "86s-remote"
     key    = "ec2-module-demo"
     region = "us-east-1"
     use_lockfile = true
